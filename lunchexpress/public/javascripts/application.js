@@ -19,7 +19,6 @@
     var address = document.getElementById("address").value;
     geocoder.geocode( { 'address': address}, function(results, status) {
       if (status == google.maps.GeocoderStatus.OK) {
-      	retrievePlaces();
         map.setCenter(results[0].geometry.location);
         var marker = new google.maps.Marker({
             map: map,
@@ -42,5 +41,13 @@
   	},
 	});
 	layer.setMap(map);
+  	
+	//add a click listener to the layer
+  	google.maps.event.addListener(layer, 'click', function(e) {
+  
+    //update the content of the InfoWindow
+    alert('cliccato '+ e.row['id'].value);
+    
+    }); 
   
   }
