@@ -44,8 +44,8 @@
   	
 	//add a click listener to the layer
   	google.maps.event.addListener(layer, 'click', function(e) {
-  
     //update the content of the InfoWindow
+    //e.infoWindowHtml = e.row['Store Name'].value + "<br />";
     alert('cliccato '+ e.row['id'].value);
     
     }); 
