@@ -8,6 +8,7 @@ body {
 	font: normal 12px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 #main{width:1050px; margin: 0 auto;}
+
 #map_canvas {
 	margin: 0 auto; 
 	-moz-box-shadow: 0px 0px 7px #000;
@@ -131,9 +132,9 @@ body {
 }
 
 input {
-   font-size: 16px;
+   font-size: 18px;
    margin-right: 3px;
-   padding: 20px;	
+   padding: 15px;	
    border:none;
    -webkit-border-radius:10px;
    -moz-border-radius:10px;
@@ -142,7 +143,7 @@ input {
    -moz-box-shadow:0 0 5px #666 inset;
    box-shadow:0 0 5px #666 inset;
    text-shadow: 0px 0px 1px #000;
-   height:40px;
+   height:50px;
    width:350px;
    text-indent:5px;
    background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#efefef));
