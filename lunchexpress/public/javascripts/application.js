@@ -5,12 +5,6 @@
   var centermap;
   var tableid = 1128316;
   
-  function runScript(e) {
-    if (e.keyCode == 13) 
-        codeAddress();
-  }
-
-  
   function initialize() {
     geocoder = new google.maps.Geocoder();
     var latlng = new google.maps.LatLng(51.5010, -0.12617);
