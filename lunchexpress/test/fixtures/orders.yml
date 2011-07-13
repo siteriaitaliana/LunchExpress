@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  shopname: MyString
+  product: MyText
+  quantity: 1
+
+two:
+  shopname: MyString
+  product: MyText
+  quantity: 1
