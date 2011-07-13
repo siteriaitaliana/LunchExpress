@@ -1,18 +1,20 @@
-
-
+<div id="main">
+	
 <div id="center_start">
 <h1>LunchExpress app</h1>
-<p>Please digit your post code or full address:</p>
-<input type="textbox" id="address" value="SW1P 3 or London, UK"  size="50" >
-<input type="button" value="Search" onclick="codeAddress()">
+<h2>Please digit your post code or full address:</h2>
+<input type="textbox" id="address" value="SW1P 3 or Westminster, London"  size="50" maxlength="100">
+<input type="button" class="searchButton" value="Search" onclick="codeAddress()">
 </div>
 
 <div id="center_next">
 	
 <div id="buttons">
-<input type="button" value="Search the closer Shop" onclick="retrievePlaces()">
-<input type="button" value="Search a different place" onclick="window.location.reload()">
+<input type="button" class="cupid-blue" value="Search the closer Shop" onclick="retrievePlaces()">
+<input type="button" class="cupid-blue" value="Search a different place" onclick="window.location.reload()">
 </div>
 
-<div id="map_canvas" style="width: 700px; height: 600px;"></div>
+<div id="map_canvas" style="width: 700px; height: 700px;"></div>
+</div>
+
 </div>
