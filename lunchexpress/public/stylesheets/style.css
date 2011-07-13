@@ -1,5 +1,8 @@
 html { height: 100% }
-body { height: 100%; margin: 0px; padding: 0px }
+body { height: 100%; margin: 0px; padding: 0px; overflow: hidden; background-color: #ffffcc;}
 #map_canvas { height: 100%; margin: 0 auto; width:800px; float:right; margin-right: 10px; }
-center_start{position: absolute; margin: 0 auto;}
+#center_start{position: absolute;top:35%; left:40%; text-align: center;}
+#center_next{padding:10px; margin-top:70px;}
+#buttons{position:absolute; right: 430px; top: 50px; z-index: 2; }
+h1{color: #ff6666; font-size: 43px;}
 

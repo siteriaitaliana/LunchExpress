@@ -1,12 +1,18 @@
-<h1>LunchExpress app</h1>
+
 
 <div id="center_start">
-<p>Please add your post code first</p>
-<input type="textbox" id="address" value="London, UK">
+<h1>LunchExpress app</h1>
+<p>Please digit your post code or full address:</p>
+<input type="textbox" id="address" value="SW1P 3 or London, UK"  size="50" >
 <input type="button" value="Search" onclick="codeAddress()">
 </div>
 
 <div id="center_next">
+	
+<div id="buttons">
 <input type="button" value="Search the closer Shop" onclick="retrievePlaces()">
+<input type="button" value="Search a different place" onclick="window.location.reload()">
+</div>
+
 <div id="map_canvas" style="width: 700px; height: 600px;"></div>
 </div>

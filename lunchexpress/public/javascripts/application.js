@@ -17,6 +17,11 @@
     }
     map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
     $('center_next').setOpacity(0);
+    
+    $('address').observe('click', respondToClick);
+	function respondToClick(event) {
+	  $('address').value = "";
+	}
   }
 
   function codeAddress() {
